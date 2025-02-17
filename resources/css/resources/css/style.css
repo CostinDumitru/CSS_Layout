@@ -1,0 +1,53 @@
+.nav-custom {
+  background-color: #b7480c;
+  padding: 0;
+  border-bottom: #b7480c solid 5px;
+}
+nav ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+nav ul li {
+  padding: 20px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0c1021;
+  color: white;
+}
+nav ul li:hover {
+  background-color: #b4a528;
+  color: black;
+}
+article {
+  background-color: #b4a528;
+  overflow: hidden;
+  color: white;
+  padding: 30px;
+  height: 180px;
+  text-align: justify;
+  box-shadow: 0 0 0 2px white, 0 0 4px black;
+}
+aside {
+  background-color: #b7480c;
+  margin-top: 26px;
+  padding: 30px;
+  box-shadow: 0 0 0 2px white, 0 0 4px black;
+}
+.footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  background-color: #0c1021;
+  color: #b4a528;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #b7480c;
+  margin-right: 10px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

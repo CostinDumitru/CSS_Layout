@@ -22,10 +22,16 @@ nav ul li {
   text-decoration: none;
   cursor: pointer;
   background-color: #0c1021;
-  color: white;
 }
 nav ul li:hover {
   background-color: #b4a528;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: none;
   color: black;
 }
 article {
